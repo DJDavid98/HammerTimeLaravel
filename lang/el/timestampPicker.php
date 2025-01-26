@@ -1,29 +1,29 @@
 <?php
 
 return [
-  'howTo' => 'Pick a date, copy the desired timestamp from the :syntaxColName column, then paste it anywhere in a chat message. The result will be a dynamic timestamp that displays differently for everyone based on their own timezone.',
+  'howTo' => 'Επιλέξτε μια ημερομηνία, αντιγράψτε την επιθυμητή χρονοσήμανση από την στήλη :syntaxColName, και στη συνέχεια επικολλήστε την σε οποιοδήποτε μήνυμα συνομιλίας. Το αποτέλεσμα θα είναι μια δυναμική χρονοσήμανση που εμφανίζεται διαφορετικά για τον καθένα με βάση τη δική του ζώνη ώρας.',
   'picker' => [
     'label' => [
-      'date' => 'Date',
-      'time' => 'Time',
-      'timezone' => 'Timezone',
-      'modeOffset' => 'Absolute Offset',
-      'modeZoneName' => 'Zone Name',
+      'date' => 'Ημερομηνία',
+      'time' => 'Ώρα',
+      'timezone' => 'Ζώνη ώρας',
+      'modeOffset' => 'Απόλυτη Μετατόπιση',
+      'modeZoneName' => 'Όνομα Ζώνης ώρας',
     ],
     'button' => [
-      'jumpToToday' => 'Jump to current month',
+      'jumpToToday' => 'Μετάβαση στον τρέχοντα μήνα',
     ],
     'tooltip' => [
-      'setToCurrent' => 'Set to current time',
-      'previousYear' => 'Previous year',
-      'previousMonth' => 'Previous month',
-      'nextMonth' => 'Next month',
-      'nextYear' => 'Next year',
+      'setToCurrent' => 'Ορισμός τρέχουσας ώρας',
+      'previousYear' => 'Προηγούμενο έτος',
+      'previousMonth' => 'Προηγούμενος μήνας',
+      'nextMonth' => 'Επόμενος μήνας',
+      'nextYear' => 'Επόμενο έτος',
     ],
   ],
   'table' => [
-    'syntaxColumn' => 'Chat syntax',
-    'resultColumn' => 'Example result',
-    'clickToCopy' => 'Copy to clipboard',
+    'syntaxColumn' => 'Σύνταξη συνομιλίας',
+    'resultColumn' => 'Παράδειγμα αποτελέσματος',
+    'clickToCopy' => 'Αντιγραφή στο πρόχειρο',
   ],
 ];
